@@ -1,6 +1,6 @@
 {
-  "name": "exercises-tracker-react",
-  "description": "Track all your exercises!",
+  "name": "goals-tracker-react",
+  "description": "Track all your goals!",
   "version": "1.0.0",
   "dependencies": {
     "serve": "^14.2.0",

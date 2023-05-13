@@ -1,6 +1,6 @@
-import "./CourseGoalItem.css";
+import "./GoalItem.css";
 
-const CourseGoalItem = (props) => {
+const GoalItem = (props) => {
   // const [deleteText, setDeleteText] = useState('');
 
   const deleteHandler = () => {
@@ -15,4 +15,4 @@ const CourseGoalItem = (props) => {
   );
 };
 
-export default CourseGoalItem;
+export default GoalItem;

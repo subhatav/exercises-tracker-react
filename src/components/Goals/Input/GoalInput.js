@@ -1,9 +1,8 @@
 import { useState } from "react";
 // import styled from "styled-components";
 
-import Button from "../../UI/Button/Button";
-
-import styles from "./CourseInput.module.css";
+import GoalButton from "../../Button/GoalButton";
+import styles from "./GoalInput.module.css";
 
 /* const FormControl = styled.div`
   margin: 0.5rem 0;
@@ -32,11 +31,11 @@ import styles from "./CourseInput.module.css";
   }
 `; */
 
-const CourseInput = (props) => {
-  const [enteredValue, setEnteredValue] = useState("");
+const GoalInput = (props) => {
   const [isValid, setIsValid] = useState(true);
+  const [enteredValue, setEnteredValue] = useState("");
 
-  const goalInputChangeHandler = (event) => {
+  const inputChangeHandler = (event) => {
     if (event.target.value.trim().length > 0) {
       setIsValid(true);
     }
@@ -60,12 +59,12 @@ const CourseInput = (props) => {
       <div
         className={`${styles["form-control"]} ${!isValid && styles.invalid}`}
       >
-        <label>Course Goal</label>
-        <input type="text" onChange={goalInputChangeHandler} />
+        <label>Your Goal</label>
+        <input type="text" onChange={inputChangeHandler} />
       </div>
-      <Button type="submit">Add Goal</Button>
+      <GoalButton type="submit">Add Goal</GoalButton>
     </form>
   );
 };
 
-export default CourseInput;
+export default GoalInput;

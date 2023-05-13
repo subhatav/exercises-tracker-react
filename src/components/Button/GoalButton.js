@@ -1,6 +1,8 @@
-import styles from "./Button.module.css";
+// import styled from "styled-components";
 
-const Button = (props) => {
+import styles from "./GoalButton.module.css";
+
+const GoalButton = (props) => {
   return (
     <button type={props.type} className={styles.button} onClick={props.onClick}>
       {props.children}
@@ -8,9 +10,7 @@ const Button = (props) => {
   );
 };
 
-/* import styled from "styled-components";
-
-const Button = styled.button`
+/* const GoalButton = styled.button`
   width: 100%;
   font: inherit;
   padding: 0.5rem 1.5rem;
@@ -36,4 +36,4 @@ const Button = styled.button`
   }
 `; */
 
-export default Button;
+export default GoalButton;

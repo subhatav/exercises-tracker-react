@@ -1,8 +1,9 @@
-# Exercises Tracker
+# Goals Tracker
 
 This *tool* is **developed** using:
 * **Node Package Manager** as *foundation*;
 * **React** with **DOM** for *developing*;
+* **Styled-Components** for *styling*;
 * **React Scripts** for *executing*;
 * **Serve** for *hosting*.
 
@@ -12,13 +13,14 @@ This *tool* is **developed** using:
 
 The **stable** releases of the following *technologies* are used:
 
-| Technology    | Version |
-| ------------- | ------- |
-| NPM           | 18+     |
-| React         | 18.2+   |
-| React DOM     | 18.2+   |
-| React Scripts | 5.0+    |
-| Serve         | 14.2+   |
+| Technology        | Version |
+| ----------------- | ------- |
+| NPM               | 18+     |
+| React             | 18.2+   |
+| React DOM         | 18.2+   |
+| Styled-Components | 6.0.+   |
+| React Scripts     | 5.0+    |
+| Serve             | 14.2+   |
 
 P.S. For *hosted* usage, only **Vercel** deployment is *sufficient*.
 

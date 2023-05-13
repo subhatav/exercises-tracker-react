@@ -1,6 +1,6 @@
 {
-  "short_name": "Exercises Tracker",
-  "name": "Exercises Tracker using React.js",
+  "short_name": "Goals Tracker",
+  "name": "Goals Tracker using React.js",
   "icons": [
     {
       "src": "favicon.ico",
