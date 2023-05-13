@@ -1,6 +1,6 @@
 {
-  "name": "exercises-tracker-react",
-  "description": "Track all your exercises!",
+  "name": "goals-tracker-react",
+  "description": "Track all your goals!",
   "version": "1.0.0",
   "dependencies": {
     "serve": "^14.2.0",
@@ -9,6 +9,7 @@
     "react-scripts": "5.0.1"
   },
   "devDependencies": {
+    "styled-components": "^6.0.0-rc.1",
     "@testing-library/react": "^14.0.0",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/user-event": "^14.4.3"
